@@ -6,15 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./pages/index.css" />
-    <title>Document</title>
+    <title>Путешествия по России</title>
 </head>
 
 <body class="page">
     <header class="header">
         <img class="header__logo" src="./images/header-logo.svg" alt="Логотип Россия" />
         <div class="header__lang-links">
-            <a class="header__lang-link link-hover" href="#" target="_blank">Ru</a>
-            <a class="header__lang-link link-hover" href="#" target="_blank">En</a>
+            <a class="header__lang-link header__active" href="#" target="_blank">Ru</a>
+            <a class="header__lang-link" href="#" target="_blank">En</a>
         </div>
     </header>
     <main class="main">
@@ -74,7 +74,7 @@
 
         <section class="places">
             <div class="place">
-                <h3 class="place__title">Куршская коса</h3>
+                <h2 class="place__title">Куршская коса</h2>
                 <div class="place__website">
                     <p class="place__url">URL</p>
                     <a class="place__link link-hover" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
@@ -99,7 +99,7 @@
             </div>
 
             <div class="place">
-                <h3 class="place__title">Кольский</h3>
+                <h2 class="place__title">Кольский</h2>
                 <div class="place__website">
                     <p class="place__url">URL</p>
                     <a class="place__link link-hover"
@@ -126,7 +126,7 @@
             </div>
 
             <div class="place">
-                <h3 class="place__title">Алтай</h3>
+                <h2 class="place__title">Алтай</h2>
                 <div class="place__website">
                     <p class="place__url">URL</p>
                     <a class="place__link link-hover" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ"
@@ -151,7 +151,7 @@
             </div>
 
             <div class="place">
-                <h3 class="place__title">Зимний Байкал</h3>
+                <h2 class="place__title">Зимний Байкал</h2>
                 <div class="place__website">
                     <p class="place__url">URL</p>
                     <a class="place__link link-hover" href="https://vk.com/baikalmile"
@@ -175,7 +175,7 @@
             </div>
 
             <div class="place">
-                <h3 class="place__title">Карелия</h3>
+                <h2 class="place__title">Карелия</h2>
                 <div class="place__website">
                     <p class="place__url">URL</p>
                     <a class="place__link link-hover" href="http://vodlozero.ru"
@@ -211,27 +211,29 @@
     </main>
 
     <footer class="footer">
-        <ul class="footer__links">
-            <li>
-                <a class="footer__link link-hover" href="https://yandex.ru/maps" target="_blank">Карты</a>
-            </li>
+        <nav>
+            <ul class="footer__links">
+                <li>
+                    <a class="footer__link link-hover" href="https://yandex.ru/maps" target="_blank">Карты</a>
+                </li>
 
-            <li>
-                <a class="footer__link link-hover" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
-            </li>
+                <li>
+                    <a class="footer__link link-hover" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
+                </li>
 
-            <li>
-                <a class="footer__link link-hover" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
-            </li>
+                <li>
+                    <a class="footer__link link-hover" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
+                </li>
 
-            <li>
-                <a class="footer__link link-hover" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
-            </li>
+                <li>
+                    <a class="footer__link link-hover" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
+                </li>
 
-            <li>
-                <a class="footer__link link-hover" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
-            </li>
-        </ul>
+                <li>
+                    <a class="footer__link link-hover" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+                </li>
+            </ul>
+        </nav>
         <p class="footer__copyright">&copy; 2023. Полина</p>
     </footer>
 </body>
